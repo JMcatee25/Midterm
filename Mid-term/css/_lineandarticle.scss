@@ -1,0 +1,29 @@
+.line--break {
+  display: block;
+  z-index: 2;
+  position: absolute;
+  height: 10px;
+  width: 400px;
+  background-color: white;
+  left: 36%;
+  top: 285%;
+}
+
+.main--line {
+  color: #cccccc;
+  margin-top: -120px;
+  position: relative;
+  opacity: 0.4;
+  width: 1170px;
+}
+
+.articles {
+  z-index: 3;
+  display: block;
+  font-size: 14px;
+  padding: 15px 40px;
+  font-weight: 700;
+  width: 249px;
+  height: 48px;
+  margin: 76px 30px 94px;
+}

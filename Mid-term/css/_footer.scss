@@ -1,0 +1,77 @@
+.footer {
+  background-color: #3949ab;
+  padding: 75px 142px 25px 144px;
+  margin-top: 94px;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__main-nav {
+    li {
+      font-size: 16px;
+      font-weight: 300;
+      font-family: $fontRV;
+      color: white;
+      line-height: 33px;
+    }
+  }
+
+  &__social-nav {
+    display: flex;
+    align-items: center;
+
+    li {
+      margin-bottom: 23px;
+
+      a {
+        display: inline-block;
+        height: 100%;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__mm-logo {
+    width: 65px;
+    height: 64px;
+    margin-right: 45px;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: center;
+    ul {
+      display: flex;
+    }
+
+    li {
+      position: relative;
+      margin-right: 40px;
+      color: white;
+      font-size: 14px;
+      font-family: $fontRV;
+      font-weight: 300;
+
+      &::after {
+        content: "";
+        position: absolute;
+        right: -20px;
+        width: 1px;
+        height: 16px;
+        background-color: white;
+      }
+
+      &:last-child {
+        margin-right: 0;
+
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+}

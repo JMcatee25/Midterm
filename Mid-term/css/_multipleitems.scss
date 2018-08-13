@@ -1,0 +1,45 @@
+$fontRV: "RVMontserrat", sans-serif;
+
+.related {
+  margin-left: 70px;
+  margin-top: -2px;
+}
+
+.index__main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btn--roundmoving {
+  border: 1px solid #3949ab;
+  display: inline-block;
+  border-radius: 20px;
+  color: #3949ab;
+  padding: 5px 0px;
+  background-color: white;
+  text-align: center;
+  font-family: $fontRV;
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+.btn--blue {
+  margin-top: -15px;
+  margin-left: 78px;
+  font-size: 13px;
+  padding: 10px 35px;
+  border-radius: 2px;
+  border: none;
+  background-color: #536dfe;
+  color: white;
+  font-weight: 400;
+}
+
+.main__small__text__top {
+  margin-bottom: 5px;
+}
+
+.Bold {
+  font-weight: 700;
+  display: block;
+}

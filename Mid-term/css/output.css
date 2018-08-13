@@ -129,7 +129,6 @@ table {
   border-spacing: 0;
 }
 
-/* ========================== Site Styles =================== */
 @font-face {
   font-family: RVMontserrat;
   src: url("../fonts/rv-montserrat-light.45eb747.ttf") format("truetype");
@@ -150,6 +149,7 @@ table {
   src: url("../fonts/rv-montserrat-bold.1cb541f.ttf") format("truetype");
   font-weight: 700;
 }
+/* ========================== Site Styles =================== */
 * {
   box-sizing: border-box;
 }
@@ -595,7 +595,6 @@ table {
   margin-bottom: 50px;
 }
 
-/* ========================== Title =================== */
 /* ========================== Breadcrumb nav =================== */
 .nav__breadcrumb {
   height: 24px;
@@ -621,6 +620,7 @@ table {
   text-decoration: none;
 }
 
+/* ========================== Title =================== */
 .article__maintitle {
   font-size: 42px;
   font-family: "RVMontserrat", sans-serif;

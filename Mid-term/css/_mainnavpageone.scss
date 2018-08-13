@@ -1,0 +1,22 @@
+.main__nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 42px;
+  margin-bottom: 40px;
+
+  li {
+    margin: 1rem 1.6rem;
+    display: inline;
+    font-size: 13px;
+    font-family: $fontRV;
+    font-weight: 300;
+  }
+
+  .nav--textchange {
+    font-weight: bold;
+    color: #303f9f;
+    line-height: 20px;
+    border-bottom: solid 2px darkblue;
+    padding: 0 5px 5px 5px;
+  }
+}
