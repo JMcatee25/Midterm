@@ -129,6 +129,7 @@ table {
   border-spacing: 0;
 }
 
+/* ========================== Site Styles =================== */
 @font-face {
   font-family: RVMontserrat;
   src: url("../fonts/rv-montserrat-light.45eb747.ttf") format("truetype");
@@ -149,7 +150,6 @@ table {
   src: url("../fonts/rv-montserrat-bold.1cb541f.ttf") format("truetype");
   font-weight: 700;
 }
-/* ========================== Site Styles =================== */
 * {
   box-sizing: border-box;
 }
@@ -382,6 +382,7 @@ table {
   display: flex;
   flex-direction: column;
   box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.15);
+  transition: width 0.5s ease;
   width: 370px;
   max-height: 550px;
   margin-right: 30px;
